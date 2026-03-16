@@ -84,7 +84,7 @@ h4{
   aspect-ratio: 5 / 2;
   margin: 50px auto;
   margin-bottom: 220px;
-
+  
 }
 
 .img-box img{
@@ -103,6 +103,7 @@ h4{
   width: 500px;
   height: 300px;
   margin-left: 60px;
+  animation: slideIn 1s ease-in-out;
 }
 
 .Btn-header-style{
@@ -267,4 +268,30 @@ h4{
   height: 100%;
   object-fit: cover;
   
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+
+/* ทำต่อ พรุ้งนี้ */
+@keyframes Rotate {
+  from {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
