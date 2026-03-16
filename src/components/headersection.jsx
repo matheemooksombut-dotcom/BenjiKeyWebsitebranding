@@ -30,17 +30,20 @@ function HeaderSection() {
              <div className="Items-Mostpopular">
             {/* 1 */}
               <div className="items-img-pic">
-                  <img src="" alt="" />
+                  <img src="./public/showcasemainSection.png" alt="" />
+                  <p> 1. 24/7 Emergency Lockout Service</p>
               </div>
 
               {/* 2 */}
                <div className="items-img-pic">
-                  <img src="" alt="" />
+                  <img src="./public/showcasemainSection2.png" alt="" />
+                  <p> 2. Safes & Deadbolts</p>
               </div>
 
               {/* 3 */}
-               <div className="items-img-pic">
-                  <img src="" alt="" />
+               <div className="items-img-pic-fix">
+                  <img src="./public/showcasemainSection3.png" alt="" />
+                  <p> 3. Security Systems</p>
               </div>
           </div>
           </div>
