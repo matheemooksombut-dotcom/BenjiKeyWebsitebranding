@@ -24,6 +24,29 @@ function HeaderSection() {
           </div>
         </div>
       </div>
+      <div className="MostpopularServices">
+          <div className="HeaderText-Mostpopular">
+            <h1>Most Popular Services</h1>
+             <div className="Items-Mostpopular">
+            {/* 1 */}
+              <div className="items-img-pic">
+                  <img src="" alt="" />
+              </div>
+
+              {/* 2 */}
+               <div className="items-img-pic">
+                  <img src="" alt="" />
+              </div>
+
+              {/* 3 */}
+               <div className="items-img-pic">
+                  <img src="" alt="" />
+              </div>
+          </div>
+          </div>
+
+         
+      </div>
 
       
     </>
