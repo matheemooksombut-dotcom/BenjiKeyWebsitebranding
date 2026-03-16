@@ -9,7 +9,7 @@ function Navbar() {
     <>
       <nav className="navbar">
         <div className="logo">
-            <img src="" alt="" />
+            <img src="../public/LogoTemplate.jpg" alt="" />
         </div>
         <ul className="menu">
             <li>Residential</li>
