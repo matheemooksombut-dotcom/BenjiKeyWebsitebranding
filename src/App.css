@@ -272,7 +272,8 @@ h4{
 }
 .footer-wrapper{
   width: 100%;
-  height: 100vh;
+   min-height: 50vh;
+  padding-top: 100px;
   background-image: url(../public/bgfooter.png);
 }
 .footer-content{
@@ -299,7 +300,29 @@ h4{
 
 }
 
+.incontent-footer{
+  width: 100%;
+  height: 60vh;
+  background-color: rgb(220, 226, 230);
+  column-gap: 30px;
+  text-align: center;
+  display: flex;               
+  flex-direction: column;    
+  justify-content: center;   
+  
+}
+          
+.main-block-contentfooter{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+ 
 
+}
+.block-footer-list{
+  width: 200px;
+  height: 200px;
+}
 
 @keyframes slideIn {
   from {
@@ -325,4 +348,8 @@ h4{
     transform: rotateY(360deg);
     opacity: 1;
   }
+}
+
+.list-footer{
+  list-style: none;
 }

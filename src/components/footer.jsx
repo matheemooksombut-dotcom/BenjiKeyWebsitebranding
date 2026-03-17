@@ -7,7 +7,7 @@ function Footer() {
 
   return (
     <>
-        <div className="footer-wrapper">
+      <div className="footer-wrapper">
             <div className="footer-content">
               <center><h2>TESTIMONIALS</h2></center>
             </div>
@@ -33,6 +33,23 @@ function Footer() {
             </div>
 
         </div>
+
+        <div className="incontent-footer">
+              <div className='main-block-contentfooter'>
+                <div className="block-footer-list">
+                  <ul className='list-footer'>
+                    <li>Residential</li>
+                    <li>Commercial</li>
+                    <li>Automotive</li>
+                    <li>About Us</li>
+                    <li>Contact</li>
+                  </ul>
+                </div>
+                
+              </div>
+        </div>
+
+        
 
               
     </>
