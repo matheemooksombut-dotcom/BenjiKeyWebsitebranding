@@ -84,6 +84,7 @@ h4{
   aspect-ratio: 5 / 2;
   margin: 50px auto;
   margin-bottom: 220px;
+  animation:  Rotate 1s ease-in-out;
   
 }
 
@@ -283,15 +284,15 @@ h4{
 }
 
 
-/* ทำต่อ พรุ้งนี้ */
+
 @keyframes Rotate {
   from {
-    transform: translateX(-100px);
+    transform: rotateY(0deg);
     opacity: 0;
   }
 
   to {
-    transform: translateX(0);
+    transform: rotateY(360deg);
     opacity: 1;
   }
 }
