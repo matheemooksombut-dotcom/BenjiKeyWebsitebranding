@@ -315,14 +315,39 @@ h4{
 .main-block-contentfooter{
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  
  
 
 }
 .block-footer-list{
-  width: 200px;
-  height: 200px;
+  
+  display: flex;
+  column-gap: 100px;
+  justify-content: space-around;
 }
+
+.Inconcept-img{
+  width: 70px;
+  height: 70px;
+  border-radius: 60px;
+
+}
+
+.Inconcept-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+   border-radius: 100px;
+}
+.Inconcept-footer{
+  display: flex;
+  flex-direction: row;
+  column-gap: 20PX;
+  justify-content: center;
+  align-items: center;
+  margin-right: 120px;
+}
+
 
 @keyframes slideIn {
   from {
