@@ -1,4 +1,4 @@
-
+import {Link} from "react-router-dom";
 import { useState } from 'react'
 
 
@@ -12,7 +12,9 @@ function Navbar() {
             <img src="../public/LogoTemplate.jpg" alt="" />
         </div>
         <ul className="menu">
-            <li>Residential</li>
+            <Link className="Linkhorver" to="/Residential">
+              <li>Residential</li>
+            </Link>
             <li>Comemercial</li>
             <li>Automotive</li>
             <li>About Us</li>
