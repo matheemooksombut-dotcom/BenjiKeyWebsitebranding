@@ -3,6 +3,8 @@ import { useState } from 'react'
 import Navbar from './components/navbar.jsx'
 import Footer from './components/footer.jsx'
 import ResidentialCompounent from "./components/ResidentialCompounent.jsx";
+import ContentResidentComponent from "./components/contentResidentCompounent.jsx";
+
 import './App.css'
 
 function Residential() {
@@ -12,6 +14,7 @@ function Residential() {
     <>
       <Navbar/>
       <ResidentialCompounent/>
+      <ContentResidentComponent/>
       <Footer/>
     
 

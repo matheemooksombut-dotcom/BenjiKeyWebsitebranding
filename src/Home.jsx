@@ -4,6 +4,7 @@ import Navbar from './components/navbar.jsx'
 import HeaderSection from './components/headersection.jsx'
 import Contentsectionhome from './components/contentsectionhome.jsx'
 import Footer from './components/footer.jsx'
+import FounderfooterCompounent from "./components/FounderfooterCompounent.jsx";
 import './App.css'
 
 function Home() {
@@ -14,6 +15,7 @@ function Home() {
       <Navbar/>
       <HeaderSection/>
       <Contentsectionhome/>
+      <FounderfooterCompounent/>
       <Footer/>
     
 
