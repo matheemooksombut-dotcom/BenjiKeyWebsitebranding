@@ -423,6 +423,7 @@ h4{
 }
 
 
+
 @keyframes slideIn {
   from {
     transform: translateX(-100px);
@@ -451,4 +452,5 @@ h4{
 
 .list-footer{
   list-style: none;
+  
 }
