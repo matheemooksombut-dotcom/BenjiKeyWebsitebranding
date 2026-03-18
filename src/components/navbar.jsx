@@ -18,8 +18,11 @@ function Navbar() {
             <Link className="Linkhorver" to="/Commercial">
               <li>Comemercial</li>
             </Link>
+
             <li>Automotive</li>
-            <li>Contact Us</li>
+            <li className="Linkhorver" onClick={()=>{
+              document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })
+            }}>Contact Us</li>
         </ul>
       </nav>
 

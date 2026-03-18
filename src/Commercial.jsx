@@ -12,11 +12,13 @@ function Commercial() {
 
   return (
     <>
-        <Navbar/>
-        <CommercialCompounent/>
-        <ContentReciptentComponent/>
-        <Footer/>
-        
+    <Navbar/>
+    <CommercialCompounent/>
+    <ContentReciptentComponent/>
+
+    <div id='contract'>
+      <Footer/>
+    </div>
 
       
     </>

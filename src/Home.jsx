@@ -16,8 +16,9 @@ function Home() {
       <HeaderSection/>
       <Contentsectionhome/>
       <FounderfooterCompounent/>
-      <Footer/>
-    
+      <div id='contact'>
+        <Footer/>
+      </div>
 
       
     </>

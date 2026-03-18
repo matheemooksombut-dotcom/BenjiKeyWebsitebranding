@@ -16,8 +16,10 @@ function Residential() {
       <Navbar/>
       <ResidentialCompounent/>
       <ContentReciptentComponent/>
-      <Footer/>
-    
+      
+      <div id="contact">
+        <Footer/>
+      </div>
 
       
     </>
