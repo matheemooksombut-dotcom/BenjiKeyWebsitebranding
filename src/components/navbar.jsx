@@ -15,9 +15,10 @@ function Navbar() {
             <Link className="Linkhorver" to="/Residential">
               <li>Residential</li>
             </Link>
-            <li>Comemercial</li>
+            <Link className="Linkhorver" to="/Commercial">
+              <li>Comemercial</li>
+            </Link>
             <li>Automotive</li>
-            <li>About Us</li>
             <li>Contact Us</li>
         </ul>
       </nav>

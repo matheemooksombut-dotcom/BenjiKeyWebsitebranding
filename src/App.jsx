@@ -3,6 +3,8 @@ import { useState } from 'react'
 import './App.css'
 import Home from './Home.jsx'
 import Residential from './Residential.jsx'
+import Commercial from './Commercial.jsx'
+
 
 
 function App() {
@@ -13,6 +15,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Residential" element={<Residential />} />
+        <Route path="/Commercial" element={<Commercial />} />
+
       </Routes>
       
     
